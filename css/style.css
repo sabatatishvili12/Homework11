@@ -1,3 +1,5 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 .minimodiv {
 	float: left;
 }
@@ -11,11 +13,14 @@
 }
 .li {
 	font-size: 14px;
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
 	display: inline-flex;
 	margin: 10px 0px 0 100px;
 }
 header {
 	padding: 60px;
+	position: -webkit-sticky;
 	position: sticky;
 }
 section {
@@ -56,15 +61,23 @@ h1 {
 	width: 420px;
 }
 .section2divs {
-	flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
 	width: 420px;
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
 	display: inline-flex;
 	margin: 60px 0 0 60px;
 }
 .section2firstdiv {
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
 	display: inline-flex;
-	flex-wrap: wrap;
-	justify-content: center;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 }
 .footer {
 	height: 97px;
@@ -88,8 +101,10 @@ h1 {
 	background-color: #F0F0F0;
 	width: 150px;
 }
-
-
+.section4 {
+	height: 400px;
+	background-color: grey;
+}
 
 
 
